@@ -1,0 +1,56 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 10px;
+    padding: 5px;
+    width: 380px;
+    margin: auto;
+    background-color: rgb(187, 187, 187);
+}
+
+.display-container, .clear-delete-container, .number-container1, .number-container2, .number-container3, .number-container4 {
+    display: flex;
+}
+
+.btn {
+    min-height: 70px;
+    min-width: 70px;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 4px;
+    font-size: x-large;
+    background-color: aliceblue;
+}
+
+#delete, #clear {
+    min-width: 147px;
+}
+
+#delete {
+    background-color: rgb(122, 171, 245);
+}
+
+#clear {
+    background-color: rgb(255, 116, 116);
+}
+
+#display {
+    background-color: aliceblue;
+    padding: 25px;
+    min-width: 250px;
+}
+
+.btn.operator {
+    background-color: rgb(174, 174, 174);
+}
+
+#equal {
+    background-color: rgb(144, 247, 144);
+}
+
+#dot {
+    background-color: rgb(122, 122, 122);
+}
